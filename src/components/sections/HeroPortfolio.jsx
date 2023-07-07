@@ -16,8 +16,8 @@ const HeroPortfolio = () => {
               <h1 className="font-bold text-[32px] text-center leading-[50px] sm:text-start md:text-[40px] md:leading-[60px]  lg:leading-[80px]  lg:text-[60px]">
               <span className="text-primary"> Work </span>  Speaks Louder 
               
-                <br className="hidden lg:block"/>
-                Than Word!
+                <br className="hidden lg:block"/>   Than Word!
+              
               </h1>
               <p className="text-center text-[16px]  py-5 leading-[28px] sm:text-start sm:leading-[31px] md:text-[18px] lg:text-[20px]">
               We've helped these clients delight users, overcome challenges, 

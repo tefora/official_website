@@ -14,7 +14,7 @@ const ServiceProcess = ({ color }) => {
       <div className="flex flex-wrap mt-16 lg:mx-20">
         <div className="w-full">
           <ul
-            className="flex mb-0 list-none gap-8 lg:gap-10 sm:gap-8 flex-wrap pt-3 pb-4 flex-row"
+            className="flex mb-0 list-none gap-9 lg:gap-10 sm:gap-8 flex-wrap pt-3 pb-4 flex-row"
             role="tablist"
           >
             {Serviceprocess.map((item) => (
@@ -42,7 +42,7 @@ const ServiceProcess = ({ color }) => {
             ))}
           </ul>
           <div className="relative flex flex-col min-w-0 break-words bg-dark w-full mb-6 shadow-lg rounded">
-            <div className="px-4 py-5 flex-auto">
+            <div className="sm:px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
               {Serviceprocess.map((item)=>(
                   <div key={item.id} className={openTab === item.id ? "block" : "hidden"} id={item.link}>

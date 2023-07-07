@@ -5,7 +5,7 @@ import {
   service4,
   service5,
   service6,
-  jupiter,
+  logo,
   client1,
   process1,
   process3,
@@ -136,16 +136,16 @@ export const Testimonial = [
     id: 1,
     review:
       "Unlike other agencies and freelancers I have worked with in the past, folks at turingLabs exhibit rare combination of strong product thinking and interface design skills. Highly recommended!",
-    designation: "Kedar Nimkar · Head of Design, Jupiter Money",
-    company: jupiter,
+    designation: "Kedar Nimkar · Head of Design, logo Money",
+    company: logo,
     profile: client1,
   },
   {
     id: 2,
     review:
       "Unlike other agencies and freelancers I have worked with in the past, folks at turingLabs exhibit rare combination of strong product thinking and interface design skills. Highly recommended!",
-    designation: "Kedar Nimkar · Head of Design, Jupiter Money",
-    company: jupiter,
+    designation: "Kedar Nimkar · Head of Design, logo Money",
+    company: logo,
     profile: client1,
   },
 ];
