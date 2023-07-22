@@ -12,19 +12,21 @@ const Projects = () => {
             Projects
           </h2>
           <p className="mt-5 text-[16px] leading-[28px] sm:leading-[31px] md:text-[18px] lg:text-[20px]">
-            We specialize in crafting tailored digital solutions that <br className="hidden sm:block"/> drive
-            growth and engagement.
+            We specialize in crafting tailored digital solutions that{" "}
+            <br className="hidden sm:block" /> drive growth and engagement.
           </p>
         </div>
         <div>
-          <Link to="" className={`${styles.btnStyle1} btn-1 my-5`}>
+          <Link to="/portfolio" className={`${styles.btnStyle1} btn-1 my-5`}>
             View More
           </Link>
         </div>
       </div>
-      <div>
-        <ProjectSlide />
-      </div>
+      {/* <div className="relative">
+      <div className="absolute w-[150px] h-[100px] bg-primary -top-5 rounded-full right-0 left-0 blur-2xl opacity-25 m-auto"></div>
+       
+      </div> */}
+      <ProjectSlide />
     </div>
   );
 };

@@ -133,20 +133,29 @@ export const counters = [
     title: " Industries Served",
   },
 ];
-export const projects=[
+export const projects = [
   {
-    id:1,
-    image:slide1
+    id: 1,
+    image: slide1,
+    number: "01",
+    title: "Effectiv. Fight fraudsters. ",
+    subtitle: "UI UX Design · SaaS · United States ",
   },
   {
-    id:2,
-    image:slide2
+    id: 2,
+    image: slide2,
+    number: "01",
+    title: "Effectiv. Fight fraudsters. ",
+    subtitle: "UI UX Design · SaaS · United States ",
   },
   {
-    id:3,
-    image:slide3
+    id: 3,
+    image: slide3,
+    number: "01",
+    title: "Effectiv. Fight fraudsters. ",
+    subtitle: "UI UX Design · SaaS · United States ",
   },
-]
+];
 export const Testimonial = [
   {
     id: 1,

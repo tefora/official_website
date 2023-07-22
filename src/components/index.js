@@ -32,6 +32,7 @@ import PortfolioPage from "./Pages/PortfolioPage";
 import OurWork from "./sections/OurWork";
 import PortfolioItem from "./sections/PortfolioItem";
 import Projects from "./sections/Projects";
+import ProjectDesc from "./sections/ProjectDesc";
 
 export {
   Counters,
@@ -65,5 +66,7 @@ export {
   HeroPortfolio,
   PortfolioPage,
   OurWork,
-  PortfolioItem,Projects
+  PortfolioItem,
+  Projects,
+  ProjectDesc,
 };
