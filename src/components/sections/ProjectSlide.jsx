@@ -13,7 +13,7 @@ import { projects } from "../../constants";
 
 function ProjectSlide() {
   return (
-    <div className="flex flex-col mt-10 sm:mt-0 lg:flex-row lg:items-center lg:gap-10 lg:mt-10">
+    <div className="flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-10 lg:mt-10">
       <div className="flex items-center justify-center w-full h-[210px] sm:h-[550px] projects">
         <div className="container">
           <Swiper

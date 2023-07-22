@@ -5,7 +5,7 @@ import ProjectSlide from "./ProjectSlide";
 
 const Projects = () => {
   return (
-    <div className="bg-[#0B0C0F] p-6 py-10 sm:p-10 sm:py-16 rounded-[20px] lg:px-24">
+    <div className="bg-[#0B0C0F] p-5 py-10 sm:p-10 sm:py-16 rounded-[20px] lg:px-24">
       <div className="flex flex-col items-center lg:flex-row lg:justify-between lg:items-start">
         <div className="text-center lg:text-start">
           <h2 className=" text-[35px] sm:text-[45px] font-semibold leading-[50px] sm:leading-[57px]">
