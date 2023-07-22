@@ -35,7 +35,7 @@ const Navbar = () => {
             "w-full flex py-3 sm:py-5 justify-between items-center navbar"
           }
         >
-          <img src={logo} alt="tefora-logo" className="h-[55px] sm:h-[65px]" />
+          <img src={logo} alt="tefora-logo" className="h-[50px] sm:h-[65px]" />
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">
             {found
