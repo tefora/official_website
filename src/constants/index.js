@@ -13,6 +13,9 @@ import {
   process2,
   tab1,
   portfolio1,
+  slide1,
+  slide2,
+  slide3,
 } from "../assets";
 
 export const navLinks = [
@@ -130,7 +133,20 @@ export const counters = [
     title: " Industries Served",
   },
 ];
-
+export const projects=[
+  {
+    id:1,
+    image:slide1
+  },
+  {
+    id:2,
+    image:slide2
+  },
+  {
+    id:3,
+    image:slide3
+  },
+]
 export const Testimonial = [
   {
     id: 1,

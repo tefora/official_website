@@ -8,7 +8,7 @@ import Services from "./sections/Services";
 import TextSlide from "./sections/TextSlide";
 import CTAsection from "./sections/CTAsection";
 import Footer from "./sections/Footer";
-import Projects from "./sections/Projects";
+import ProjectSlide from "./sections/ProjectSlide";
 import HomePage from "./Pages/HomePage";
 import ServicePage from "./Pages/ServicePage";
 import OurStory from "./Pages/OurStory";
@@ -31,6 +31,7 @@ import HeroPortfolio from "./sections/HeroPortfolio";
 import PortfolioPage from "./Pages/PortfolioPage";
 import OurWork from "./sections/OurWork";
 import PortfolioItem from "./sections/PortfolioItem";
+import Projects from "./sections/Projects";
 
 export {
   Counters,
@@ -38,7 +39,7 @@ export {
   Navbar,
   Testimonials,
   Products,
-  Projects,
+  ProjectSlide,
   Services,
   TextSlide,
   CTAsection,
@@ -64,5 +65,5 @@ export {
   HeroPortfolio,
   PortfolioPage,
   OurWork,
-  PortfolioItem
+  PortfolioItem,Projects
 };

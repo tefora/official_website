@@ -31,10 +31,10 @@ export default function TextSlide() {
         }}
         modules={[EffectCreative, Autoplay]}
         loop={true}
-        className="mySwiper"
+        className="mySwiper testimonial"
       >
         {Testimonial.map((items) => (
-          <SwiperSlide key={items.id}>
+          <SwiperSlide key={items.id} className="bg-black">
             <div className="flex flex-col items-center justify-center lg:flex-row-reverse lg:mx-32 lg:p-5">
               <img
                 src={items.profile}

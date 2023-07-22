@@ -31,22 +31,22 @@ export default function TextSlide() {
         }}
         modules={[EffectCreative, Autoplay]}
         loop={true}
-        className="mySwiper"
+        className="mySwiper text-slide"
       >
-        <SwiperSlide>
+        <SwiperSlide className="bg-black text-center">
           <h5 className="font-semibold text-[20px] md:text-[23px] lg:text-[40px] h-[144px] sm:h-[180px]">
             Driving digital success with innovative solutions for businesses.
             <span className="text-primary"> Partner with us.</span>
           </h5>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-black text-center">
           <h5 className="font-semibold text-[20px] md:text-[23px] lg:text-[40px] h-[144px] sm:h-[180px]">
             Empowering businesses with innovative
             <span className="text-primary">&nbsp;digital solutions&nbsp;</span>
             for growth and success.
           </h5>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="bg-black text-center">
           <h5 className="font-semibold text-[20px] md:text-[23px] lg:text-[40px] h-[144px] sm:h-[180px]">
             Helping <span className="text-primary">businesses</span> achieve
             digital success through innovative solutions.

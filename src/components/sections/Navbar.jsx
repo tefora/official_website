@@ -35,7 +35,7 @@ const Navbar = () => {
             "w-full flex py-3 sm:py-5 justify-between items-center navbar"
           }
         >
-          <img src={logo} alt="tefora-logo" className="h-[55px] sm:h-[70px]" />
+          <img src={logo} alt="tefora-logo" className="h-[55px] sm:h-[65px]" />
 
           <ul className="list-none lg:flex hidden justify-end items-center flex-1">
             {found
@@ -71,7 +71,7 @@ const Navbar = () => {
                 ))}
 
             <li>
-              <Link to="" className={`${styles.btnStyle1} btn-1`}>
+              <Link to="" className={`${styles.btnStyle1} btn-1 ml-16`}>
                 Let's Talk
               </Link>
             </li>

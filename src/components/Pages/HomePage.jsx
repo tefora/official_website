@@ -6,11 +6,11 @@ import {
   Navbar,
   Testimonials,
   Products,
-  // Projects,
   Services,
   TextSlide,
   CTAsection,
   Footer,
+  Projects,
 } from "../index.js";
 
 const HomePage = () => {
@@ -38,9 +38,9 @@ const HomePage = () => {
           <div className={`${styles.paddingBottom}`}>
             <Testimonials />
           </div>
-          {/* <div className={`${styles.paddingBottom}`}>
+          <div className={`${styles.paddingBottom}`}>
             <Projects />
-          </div> */}
+          </div>
           <div className={`${styles.paddingBottom}`}>
             <CTAsection />
           </div>
