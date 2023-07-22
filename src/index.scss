@@ -595,9 +595,7 @@ padding-left: 0.5rem;
     font-weight: 600 !important;
 }
 
-.projects {
-    .swiper-container{
-        z-index: 0 !important;
-    }
-
+.projects .swiper-container{
+    z-index: 0 !important;
+    pointer-events: none;
 }

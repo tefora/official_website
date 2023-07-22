@@ -20,10 +20,10 @@ function ProjectSlide() {
             effect={"coverflow"}
             speed={1000}
             direction={"vertical"}
-            grabCursor={true}
+            // grabCursor={true}
             centeredSlides={true}
             slidesPerView={"auto"}
-            slideToClickedSlide={true}
+            slideToClickedSlide={false}
             // autoplay={{
             //   delay: 2500,
             //   disableOnInteraction: false,

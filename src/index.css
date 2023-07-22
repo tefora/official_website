@@ -412,4 +412,5 @@ h6 {
 
 .projects .swiper-container {
   z-index: 0 !important;
+  pointer-events: none;
 }/*# sourceMappingURL=index.css.map */
